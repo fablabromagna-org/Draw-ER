@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "cmd"
+		},
+		{
+			"path": "MicroPython"
+		},
+		{
+			"path": "C#"
+		},
+		{
+			"path": "esptool"
+		}
+	],
+	"settings": {}
+}

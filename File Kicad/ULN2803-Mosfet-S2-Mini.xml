@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\maurizio\Desktop\CorsoDisegno\Disegni\ULN2803-Mosfet-S2-Mini\ULN2803-Mosfet-S2-Mini.sch</source>
+    <date>18/04/2022 17:32:08</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ULN2803-Mosfet-S2-Mini.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Step Motor</value>
+      <footprint>Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62090D06</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620B4ED6</tstamp>
+    </comp>
+    <comp ref="RLED1">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620D49A8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CERAMIC-10UF-10V-10%-X7R_0805_</value>
+      <footprint>OPL_Capacitor:C0805</footprint>
+      <fields>
+        <field name="LCSC">C126586</field>
+        <field name="MPN">CC0805ZKY5V6BB106</field>
+        <field name="SKU">302010158</field>
+      </fields>
+      <libsource lib="OPL_Capacitor" part="CERAMIC-2.2UF-25V-10%-X7R_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6209A9CB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620EB042</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620B9F87</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620B1EC9</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626027B1</tstamp>
+    </comp>
+    <comp ref="RLED2">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626027BD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626027CA</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626027D6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626027E2</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6260787F</tstamp>
+    </comp>
+    <comp ref="RLED3">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6260788B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62607898</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626078A4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626078B0</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626078CF</tstamp>
+    </comp>
+    <comp ref="RLED4">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626078DB</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626078E8</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626078F4</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62607900</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>WeMos_D1_mini</value>
+      <footprint>Module:WEMOS_D1_mini_light</footprint>
+      <datasheet>https://wiki.wemos.cc/products:d1:d1_mini#documentation</datasheet>
+      <libsource lib="MCU_Module" part="WeMos_D1_mini" description="32-bit microcontroller module with WiFi"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6260CD23</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Step Motor</value>
+      <footprint>Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626646CE</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626646E1</tstamp>
+    </comp>
+    <comp ref="RLED5">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626646ED</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CERAMIC-10UF-10V-10%-X7R_0805_</value>
+      <footprint>OPL_Capacitor:C0805</footprint>
+      <fields>
+        <field name="LCSC">C126586</field>
+        <field name="MPN">CC0805ZKY5V6BB106</field>
+        <field name="SKU">302010158</field>
+      </fields>
+      <libsource lib="OPL_Capacitor" part="CERAMIC-2.2UF-25V-10%-X7R_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626646FA</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62664706</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62664712</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6266471E</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6266473D</tstamp>
+    </comp>
+    <comp ref="RLED6">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62664749</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62664756</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62664762</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6266476E</tstamp>
+    </comp>
+    <comp ref="LED7">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6266478D</tstamp>
+    </comp>
+    <comp ref="RLED7">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62664799</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626647A6</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626647B2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626647BE</tstamp>
+    </comp>
+    <comp ref="LED8">
+      <value>SMD-LED-CLEAR-RED_0805_</value>
+      <footprint>OPL_Opto:LED-0805</footprint>
+      <fields>
+        <field name="LCSC">C2764885</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626647DD</tstamp>
+    </comp>
+    <comp ref="RLED8">
+      <value>SMD-RES-220R-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C365277</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626647E9</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</value>
+      <footprint>OPL_Discrete:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C84354</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626647F6</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</value>
+      <footprint>OPL_Discrete:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C91104</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62664802</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>SMD-RES-4.7K-5%-1_8W_0805_</value>
+      <footprint>OPL_Resistor:R0805</footprint>
+      <fields>
+        <field name="LCSC">C473295</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6266480E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>GROVE-CONNECTOR-DIP_4P-2.0_</value>
+      <footprint>OPL_Connector:HW4-2.0</footprint>
+      <fields>
+        <field name="SKU">320110033</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="GROVE-CONNECTOR-DIP_4P-2.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62612884</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62614F83</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="WeMos_D1_mini">
+      <description>32-bit microcontroller module with WiFi</description>
+      <docs>https://wiki.wemos.cc/products:d1:d1_mini#documentation</docs>
+      <footprints>
+        <fp>WEMOS*D1*mini*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WeMos_D1_mini</field>
+        <field name="Footprint">Module:WEMOS_D1_mini_light</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RST" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="D0" type="BiDi"/>
+        <pin num="4" name="SCK/D5" type="BiDi"/>
+        <pin num="5" name="MISO/D6" type="BiDi"/>
+        <pin num="6" name="MOSI/D7" type="BiDi"/>
+        <pin num="7" name="CS/D8" type="BiDi"/>
+        <pin num="8" name="3V3" type="power_out"/>
+        <pin num="9" name="5V" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="D4" type="BiDi"/>
+        <pin num="12" name="D3" type="BiDi"/>
+        <pin num="13" name="SDA/D2" type="BiDi"/>
+        <pin num="14" name="SCL/D1" type="BiDi"/>
+        <pin num="15" name="RX" type="input"/>
+        <pin num="16" name="TX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Capacitor" part="CERAMIC-2.2UF-25V-10%-X7R_0805_">
+      <footprints>
+        <fp>*C0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-2.2UF-25V-10%-X7R_0805_</field>
+        <field name="MPN">CC0805KKX7R8BB225</field>
+        <field name="SKU">302010148</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="GROVE-CONNECTOR-DIP_4P-2.0_">
+      <footprints>
+        <fp>*HW4-2.0*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GROVE-CONNECTOR-DIP_4P-2.0_</field>
+        <field name="SKU">320110033</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Discrete" part="SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_">
+      <footprints>
+        <fp>*SOD-123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_</field>
+        <field name="MPN">B5819W</field>
+        <field name="SKU">304020034</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Discrete" part="SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_">
+      <footprints>
+        <fp>*SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_</field>
+        <field name="MPN">CJ2302</field>
+        <field name="SKU">305030015</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Opto" part="SMD-LED-CLEAR-RED_0805_">
+      <footprints>
+        <fp>*LED-0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-LED-CLEAR-RED_0805_</field>
+        <field name="MPN">17-215SURC_S530-A2_TR8</field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Resistor" part="SMD-RES-220R-5%-1_8W_0805_">
+      <footprints>
+        <fp>*R0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-220R-5%-1_8W_0805_</field>
+        <field name="MPN">RC0805JR-07220RL</field>
+        <field name="SKU">301010315</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Resistor" part="SMD-RES-4.7K-5%-1_8W_0805_">
+      <footprints>
+        <fp>*R0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-4.7K-5%-1_8W_0805_</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
+    </library>
+    <library logical="OPL_Capacitor">
+      <uri>C:\Users\maurizio\Desktop\CorsoDisegno\Lib\Seeed-OPL/OPL_Capacitor.lib</uri>
+    </library>
+    <library logical="OPL_Connector">
+      <uri>C:\Users\maurizio\Desktop\CorsoDisegno\Lib\Seeed-OPL/OPL_Connector.lib</uri>
+    </library>
+    <library logical="OPL_Discrete">
+      <uri>C:/Users/maurizio/Desktop/CorsoDisegno/Lib/Seeed-OPL/OPL_Discrete_Semiconductor.lib</uri>
+    </library>
+    <library logical="OPL_Opto">
+      <uri>C:\Users\maurizio\Desktop\CorsoDisegno\Lib\Seeed-OPL/OPL_Optoelectronics.lib</uri>
+    </library>
+    <library logical="OPL_Resistor">
+      <uri>C:\Users\maurizio\Desktop\CorsoDisegno\Lib\Seeed-OPL/OPL_Resistor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(LED7-Pad2)">
+      <node ref="LED7" pin="2"/>
+      <node ref="RLED7" pin="1"/>
+    </net>
+    <net code="2" name="Net-(LED8-Pad2)">
+      <node ref="LED8" pin="2"/>
+      <node ref="RLED8" pin="1"/>
+    </net>
+    <net code="3" name="Net-(LED6-Pad2)">
+      <node ref="RLED6" pin="1"/>
+      <node ref="LED6" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="10" name="SERVO">
+      <node ref="U1" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="11" name="IN8">
+      <node ref="LED8" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="12" name="V6">
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D8-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="14" name="IN5">
+      <node ref="U1" pin="6"/>
+      <node ref="R5" pin="1"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D7-Pad2)">
+      <node ref="Q7" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="18" name="IN6">
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="LED6" pin="1"/>
+    </net>
+    <net code="19" name="IN7">
+      <node ref="R7" pin="1"/>
+      <node ref="LED7" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="20" name="IN1">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="21" name="IN4">
+      <node ref="LED4" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="22" name="IN3">
+      <node ref="R3" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="23" name="IN2">
+      <node ref="U1" pin="14"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(LED2-Pad2)">
+      <node ref="RLED2" pin="1"/>
+      <node ref="LED2" pin="2"/>
+    </net>
+    <net code="25" name="Net-(LED3-Pad2)">
+      <node ref="LED3" pin="2"/>
+      <node ref="RLED3" pin="1"/>
+    </net>
+    <net code="26" name="Net-(LED1-Pad2)">
+      <node ref="RLED1" pin="1"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D1-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="28" name="Net-(D2-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="29" name="Net-(D3-Pad2)">
+      <node ref="Q3" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D4-Pad2)">
+      <node ref="Q4" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(LED5-Pad2)">
+      <node ref="LED5" pin="2"/>
+      <node ref="RLED5" pin="1"/>
+    </net>
+    <net code="32" name="Net-(LED4-Pad2)">
+      <node ref="RLED4" pin="1"/>
+      <node ref="LED4" pin="2"/>
+    </net>
+    <net code="33" name="GND">
+      <node ref="RLED5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R4" pin="2"/>
+      <node ref="RLED4" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="RLED6" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="RLED7" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="RLED8" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="RLED2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="RLED3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="RLED1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>

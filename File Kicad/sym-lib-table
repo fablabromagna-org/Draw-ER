@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CJ2302)(type Legacy)(uri C:/Users/maurizio/Desktop/CorsoDisegno/Disegni/ULN2803-Mosfer-V5/Models/CJ2302.lib)(options "")(descr ""))
+  (lib (name B5819)(type Legacy)(uri C:/Users/maurizio/Desktop/CorsoDisegno/Disegni/ULN2803-Mosfer-V5/Models/B5819W-TP.lib)(options "")(descr ""))
+)
