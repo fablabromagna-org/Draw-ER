@@ -9,7 +9,9 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 <img src="Infografica.png" alt="Locandina" width="600"/>
 
 ## istruzioni per il montaggio
+
 <a href="https://cutt.ly/montaggio-Draw-ER">Dettagli</a>
+
 <img src="Componenti.png" alt="Componenti" width="400"/>
 
 
