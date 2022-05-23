@@ -16,7 +16,12 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 
 
 ## usa Kicad per modificare lo schema e il PCB
+
+<a href="https://github.com/fablabromagna-org/Draw-ER/tree/master/File%20Kicad">Kicad</a>
+
 <img src="Draw-ER-pcb.png" alt="PCB" width="600"/>
+
+
 
 ## dai un'occhiata allo schema
 <a href="Schematic.pdf">Download PDF</a>
