@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Draw-ER"
+Date "2022-05-23"
+Rev "1.0"
+Comp "Fablab Romagna APS"
+Comment1 "disegnato da Maurizio"
 Comment2 ""
 Comment3 ""
 Comment4 ""
