@@ -11,6 +11,8 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 # usa Kicad per modificare lo schema e il PCB
 <img src="Draw-ER-pcb.png" alt="PCB" width="600"/>
 
+<a href="Schematic.pdf">Download PDF</a>
+
 <object data="Schematic.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="Schematic.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="Schematic.pdf">Download PDF</a>.</p>
