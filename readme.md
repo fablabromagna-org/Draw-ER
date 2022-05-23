@@ -9,8 +9,8 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 <img src="Infografica.png" alt="Locandina" width="600"/>
 
 ## istruzioni per il montaggio
-<img src="Componenti.png" alt="Componenti" width="600"/>
-<a href="https://cutt.ly/montaggio-Draw-ER">Istruzioni per il montaggio</a>
+<a href="https://cutt.ly/montaggio-Draw-ER">Dettagli</a>
+<img src="Componenti.png" alt="Componenti" width="400"/>
 
 
 ## usa Kicad per modificare lo schema e il PCB
