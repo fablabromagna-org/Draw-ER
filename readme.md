@@ -5,5 +5,5 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 # Eccolo
 <img src="Draw-ER.jpg" alt="Draw-ER" width="400"/>
 
-# stampa la locandina da tenere il classe
+# stampa la locandina da tenere in classe
 <img src="Infografica.png" alt="Locandina" width="600"/>
