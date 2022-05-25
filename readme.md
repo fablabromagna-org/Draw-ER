@@ -11,6 +11,7 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 ## istruzioni per il montaggio
 
 <a href="https://cutt.ly/montaggio-Draw-ER">link al documento GDocs</a>
+
 <img src="Istruzioni.png" alt="Istruzioni" width="600"/>
 
 #### Ci serve un fornitore per queste viti... ci date una mano?
