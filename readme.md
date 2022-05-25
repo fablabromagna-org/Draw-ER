@@ -12,7 +12,7 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 
 <a href="https://cutt.ly/montaggio-Draw-ER">link al documento GDocs</a>
 
-<img src="Istruzioni.png" alt="Istruzioni" width="600"/>
+<img src="Istruzioni1.png" alt="Istruzioni" width="600"/>
 
 #### Ci serve un fornitore per queste viti... ci date una mano?
 <img src="FotoViti1.png" alt="Viti" width="600"/>
