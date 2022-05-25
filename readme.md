@@ -13,6 +13,7 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 <a href="https://cutt.ly/montaggio-Draw-ER">Dettagli</a>
 
 <img src="Componenti.png" alt="Componenti" width="400"/>
+<img src="FotoViti.png" alt="Viti" width="400"/>
 
 
 ## usa Kicad per modificare lo schema e il PCB
