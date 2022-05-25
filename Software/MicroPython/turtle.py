@@ -19,11 +19,28 @@ import calibration
 #pwm = pwmio.PWMOut(board.GP20, duty_cycle=2 ** 15, frequency=50)
 #servo = adafruit_motor.servo.Servo( pwm,  min_pulse=calibration.min_pulse, max_pulse=calibration.max_pulse )
 
-# Servo per Micro Python
-pinServo = machine.Pin(1, machine.Pin.OUT)
+# Servo per Micro python ESP32 S2
+pinServo = machine.Pin(5, machine.Pin.OUT)
 servo = machine.PWM(pinServo, freq=42)
 
+# Servo per Micro python ESP32 C3
+#pinServo = machine.Pin(1, machine.Pin.OUT)
+#servo = machine.PWM(pinServo, freq=42)
+
 DEBUG = True
+
+# [blu-rosa-giallo-arancio]
+# Versione Raspberry Pi Pico
+#Lstep0 = machine.Pin(2, machine.Pin.OUT) #Q4
+#Lstep1 = machine.Pin(4, machine.Pin.OUT) #Q3
+#Lstep2 = machine.Pin(6, machine.Pin.OUT) #Q2
+#Lstep3 = machine.Pin(8, machine.Pin.OUT) #Q1
+
+#Rstep0 = machine.Pin(3, machine.Pin.OUT) #Q8
+#Rstep1 = machine.Pin(5, machine.Pin.OUT) #Q7
+#Rstep2 = machine.Pin(7, machine.Pin.OUT) #Q6
+#Rstep3 = machine.Pin(9, machine.Pin.OUT) #Q5
+
 
 # [blu-rosa-giallo-arancio]
 # Versione ESP8266 su Wemos D1 R2
@@ -39,27 +56,27 @@ DEBUG = True
 
 # [blu-rosa-giallo-arancio]
 # Versione ESP32 S2 su Wemos S2 mini
-#Lstep0 = machine.Pin(2, machine.Pin.OUT)
-#Lstep1 = machine.Pin(4, machine.Pin.OUT)
-#Lstep2 = machine.Pin(6, machine.Pin.OUT)
-#Lstep3 = machine.Pin(8, machine.Pin.OUT)
+Lstep0 = machine.Pin(18, machine.Pin.OUT) #Q4
+Lstep1 = machine.Pin(33, machine.Pin.OUT) #Q3
+Lstep2 = machine.Pin(35, machine.Pin.OUT) #Q2
+Lstep3 = machine.Pin(16, machine.Pin.OUT) #Q1
 
-#Rstep0 = machine.Pin(3, machine.Pin.OUT)
-#Rstep1 = machine.Pin(5, machine.Pin.OUT)
-#Rstep2 = machine.Pin(7, machine.Pin.OUT)
-#Rstep3 = machine.Pin(9, machine.Pin.OUT)
+Rstep0 = machine.Pin(12, machine.Pin.OUT) #Q8
+Rstep1 = machine.Pin(7, machine.Pin.OUT) #Q7
+Rstep2 = machine.Pin(9, machine.Pin.OUT) #Q6
+Rstep3 = machine.Pin(11, machine.Pin.OUT) #Q5
 
 # [blu-rosa-giallo-arancio]
 # Versione Wemos C3 mini
-Lstep0 = machine.Pin(7, machine.Pin.OUT)
-Lstep1 = machine.Pin(8, machine.Pin.OUT)
-Lstep2 = machine.Pin(10, machine.Pin.OUT)
-Lstep3 = machine.Pin(6, machine.Pin.OUT)
+#Lstep0 = machine.Pin(7, machine.Pin.OUT)  #Q4
+#Lstep1 = machine.Pin(8, machine.Pin.OUT)  #Q3
+#Lstep2 = machine.Pin(10, machine.Pin.OUT) #Q2
+#Lstep3 = machine.Pin(6, machine.Pin.OUT)  #Q1
 
-Rstep0 = machine.Pin(5, machine.Pin.OUT)
-Rstep1 = machine.Pin(2, machine.Pin.OUT)
-Rstep2 = machine.Pin(3, machine.Pin.OUT)
-Rstep3 = machine.Pin(4, machine.Pin.OUT)
+#Rstep0 = machine.Pin(5, machine.Pin.OUT)  #Q8
+#Rstep1 = machine.Pin(2, machine.Pin.OUT)  #Q7
+#Rstep2 = machine.Pin(3, machine.Pin.OUT)  #Q6
+#Rstep3 = machine.Pin(4, machine.Pin.OUT)  #Q5
 
 # put connections in array to make life easier
 R_stepper = [Rstep0, Rstep1, Rstep2, Rstep3]

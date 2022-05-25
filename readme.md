@@ -14,6 +14,7 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 
 <img src="Componenti.png" alt="Componenti" width="400"/>
 <img src="FotoViti1.png" alt="Viti" width="600"/>
+<img src="ColoreDeiFili.jpg" alt="Colore dei fili" width="600"/>
 
 
 ## usa Kicad per modificare lo schema e il PCB
