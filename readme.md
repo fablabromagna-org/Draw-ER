@@ -10,10 +10,14 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 
 ## istruzioni per il montaggio
 
-<a href="https://cutt.ly/montaggio-Draw-ER">Dettagli</a>
+<a href="https://cutt.ly/montaggio-Draw-ER">Dettagli in formato GDocs</a>
 
 <img src="Istruzioni.png" alt="Istruzioni" width="600"/>
+
+## Ci serve un fornitore per queste viti... ci date una mano?
 <img src="FotoViti1.png" alt="Viti" width="600"/>
+
+## utile per i connettori non polarizzati (costano meno)
 <img src="ColoreDeiFili.jpg" alt="Colore dei fili" width="600"/>
 
 
