@@ -5,22 +5,24 @@
 # Elisabetta Siboni e Maurizio Conti
 # Servizio Marconi - USR-ER 2021
 #
-import time
-from turtle import *
-
+import turtle
 print( "Disegna poligoni parametrici" )
 
-#parametro in ingresso
-lati = 8
+# parametri in ingresso
+lati = 5
+lato = 80
 
-#calcoli preliminari
-angolo = 360/lati
-segmento = 80
+turtle.pendown()
 
-#disegna poligono
+# esegue “lati” volte le istruzioni
 for x in range(lati):
-    forward(segmento)
-    right(angolo)
+    angolo = 360/lati
+    turtle.forward(lato)
+    turtle.right(angolo)
+
+# domanda:
+# Ci sono delle istruzioni che sprecano energia?
+# Se eseguiamo 100 volte il corpo del for... 
 
 # spegne i motori e risparmia energia
 done()

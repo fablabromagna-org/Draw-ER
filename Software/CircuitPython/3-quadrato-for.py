@@ -5,20 +5,17 @@
 # Elisabetta Siboni e Maurizio Conti
 # Servizio Marconi - USR-ER 2021
 #
-import time
-from turtle import *
+import turtle
 
 print( "disegna un quadrato usando un ciclo for" )
 
-numero_lati = 150
-lunghezza = 3
+lati = 150
+lato = 3
 
 # avanti di 100 (4 volte)
-for lato in range( numero_lati ):
-    forward( lunghezza )
-    right( 360/numero_lati )
-    lunghezza = lunghezza + 0.1
-
+for lato in range( lati ):
+    forward( lato )
+    right( 360/lati )
 
 
 # spegne i motori e risparmia energia

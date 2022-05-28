@@ -19,11 +19,11 @@ print( "disegna una stella usando un ciclo for" )
 #    left(90)
 
 # stella doppia appuntita
-#for x in range(9):
-#    forward(100)
-#    right(170)
-#    forward(100)
-#    left(90)
+for x in range(9):
+    forward(100)
+    right(170)
+    forward(100)
+    left(90)
 
 # lama da taglio
 for x in range(9):
