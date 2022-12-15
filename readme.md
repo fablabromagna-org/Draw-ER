@@ -31,3 +31,6 @@ Un piccolo, lento ma economico robot disegnatore, autocostruibile da tutti e pro
 
 ## dai un'occhiata allo schema
 <a href="Schematic.pdf">Download PDF</a>
+
+## dai un'occhiata anche al lavoro di Alessandro Capanna Kappa! che sta cercando in tutti i modi di togliere il filo!! :-)
+https://github.com/1Kappa1/Draw-Er.utility.file
